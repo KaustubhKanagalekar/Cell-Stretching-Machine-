@@ -38,7 +38,7 @@
 
 HX711 scale;
 
-float calibration_factor = -220000; //-7050 worked for my 440lb max scale setup
+float calibration_factor = -49460; //-220000 previously
 
 void setup() {
   Serial.begin(9600);
