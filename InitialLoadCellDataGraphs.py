@@ -1,6 +1,6 @@
 import matplotlib.pyplot as plt
 import pandas as pd  
-
+'''
 #loading all data (change path to match true path )
 load_1_data = pd.read_csv('/Users/kaustubhkanagalekar/Downloads/load1.csv',names=['Value', 'Time'], sep=r'\t+', engine='python')
 load_2_data = pd.read_csv('/Users/kaustubhkanagalekar/Downloads/load2.csv',names=['Value', 'Time'], sep=r'\t+', engine='python')
@@ -106,6 +106,42 @@ plt.plot(df3['Elapsed_s'], df3['Value'], marker='o', linestyle='-')
 plt.xlabel('Time (s)')
 plt.ylabel('Load (N)')
 plt.title('Test Involving No Load, 10 Hz ')
+plt.grid(True)
+plt.tight_layout()
+plt.show()
+
+'''
+#################################
+load_4_data = pd.read_csv('/Users/kaustubhkanagalekar/Downloads/loadmay20000smacpower20000.csv',names=['Value', 'Time'], sep=r'\t+', engine='python')
+
+#Load data 3 
+with open('/Users/kaustubhkanagalekar/Downloads/loadmay20000smacpower20000.csv', 'r') as f:
+    raw_lines = [line.strip().replace(',', '') for line in f if line.strip()]
+
+# Step 2: Separate even and odd rows
+values_raw = raw_lines[::2]   # 0, 2, 4... → values
+times_raw = raw_lines[1::2]   # 1, 3, 5... → times
+
+# Step 3: Construct the cleaned DataFrame
+df3 = pd.DataFrame({
+    'Value': pd.to_numeric(values_raw, errors='coerce'),
+    'Time': pd.to_datetime(times_raw, format='%I:%M:%S %p', errors='coerce')
+})
+
+# Drop any rows that failed to parse
+df3 = df3.dropna().reset_index(drop=True)
+
+df3['Elapsed_s'] = (df3['Time'] - df3['Time'].iloc[0]).dt.total_seconds()
+
+# Or seconds
+df3['Elapsed_s'] = df3['Elapsed_s'] 
+
+print(df3[['Value', 'Elapsed_s']])
+plt.figure(figsize=(10, 5))
+plt.plot(df3['Elapsed_s'], df3['Value'], marker='o', linestyle='-')
+plt.xlabel('Time (s)')
+plt.ylabel('Load (N)')
+plt.title('Test Involving Load from String, 0.2 Hz ')
 plt.grid(True)
 plt.tight_layout()
 plt.show()
