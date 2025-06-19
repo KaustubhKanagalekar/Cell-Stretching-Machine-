@@ -211,7 +211,7 @@ Continued development, including expanded testing with living cells and integrat
 
 ![Final Assembly ](assets/Misc/FinalAssembly2.jpg)
 
-Please check out additional [documents](assets/Presentation%20and%20Report/MAE%20156B%20Final%20Report-2.pdf), [visuals](assets/Presentation%20and%20Report/Biomechanical%20Culture%20Reactor%20Poster%2012.57.51.pptx.pdf), and [website](https://sites.google.com/eng.ucsd.edu/mae156b-2025spring-team02)) here!
+Please check out additional [documents](assets/Presentation%20and%20Report/MAE%20156B%20Final%20Report-2.pdf), [visuals](assets/Presentation%20and%20Report/Biomechanical%20Culture%20Reactor%20Poster%2012.57.51.pptx.pdf), and [website](https://sites.google.com/eng.ucsd.edu/mae156b-2025spring-team02) here!
  
  #### Acknowledgements
  SCORE Lab – Shiley Center for Orthopedic Research and Education
