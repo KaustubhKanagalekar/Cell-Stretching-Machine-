@@ -85,9 +85,9 @@
    >> * The clamps shall be able to hold the samples throughout the experiment without causing them to slip. 
 
    > ### Justification
-   > This clamp version incorporated modularity through the use of T-slots and T-nuts, enabling quick interchangeability between different clamp types. This feature was especially beneficial for the project since the system needed to accommodate both tensile and compressive samples with differing geometries and dimensions. The modular interface allowed for faster setup and teardown between experiments, reduced the risk of sample mishandling, and provided long-term flexibility for future experimental configurations.
+     > This clamp version incorporated modularity through the use of T-slots and T-nuts, enabling quick interchangeability between different clamp types. This feature was especially beneficial for the project since the system needed to accommodate both tensile and compressive samples with differing geometries and dimensions. The modular interface allowed for faster setup and teardown between experiments, reduced the risk of sample mishandling, and provided long-term flexibility for future experimental configurations.
 
-   > In terms of mechanical performance, this iteration also maintained a strong and secure grip on the specimen throughout the loading cycles. This was crucial, as slippage during stretching or compression could compromise experimental data and hinder proper tissue development. The design’s ability to maintain a consistent clamping force under cyclic mechanical loading improved the reliability of results and ensured that strain measurements remained accurate throughout the testing period.
+     > In terms of mechanical performance, this iteration also maintained a strong and secure grip on the specimen throughout the loading cycles. This was crucial, as slippage during stretching or compression could compromise experimental data and hinder proper tissue development. The design’s ability to maintain a consistent clamping force under cyclic mechanical loading improved the reliability of results and ensured that strain measurements remained accurate throughout the testing period.
 
 3. **Linear Rail Design**
    {add image of linear rails}
@@ -96,7 +96,7 @@
    > ### Functional Requirements
    >> * The rails shall exhibit minimal friction and wobble when in operation.
    > ### Justification
-   The rail and carriage system from McMaster-Carr was chosen because it exhibited extremely low friction during inspection and seemed extremely durable. 
+     The rail and carriage system from McMaster-Carr was chosen because it exhibited extremely low friction during inspection and seemed extremely durable. 
 
 4. **Quick Release Fasteners**
    {add image for quick release} 
@@ -110,7 +110,7 @@
    >> * Repeatable Reliability: Should be durable for repeated fastening cycles (20+ uses) without significant wear or degradation of locking performance.
 
    > ### Justification
-   After comparing multiple fastening mechanisms, fixtures from the IMAO company were selected. More specifically, the IMAO Quarter Turn Fasteners were chosen as the final solution due to their optimal balance of performance, reliability, and integration ease. These fasteners provided a secure mechanical connection between key components—specifically, the lift plate, clamp carriage, actuator mount, and load cell interface—while maintaining a compact profile suitable for the limited space within the incubator-compatible reactor base.
+     After comparing multiple fastening mechanisms, fixtures from the IMAO company were selected. More specifically, the IMAO Quarter Turn Fasteners were chosen as the final solution due to their optimal balance of performance, reliability, and integration ease. These fasteners provided a secure mechanical connection between key components—specifically, the lift plate, clamp carriage, actuator mount, and load cell interface—while maintaining a compact profile suitable for the limited space within the incubator-compatible reactor base.
 
    > The tool-free quarter-turn locking mechanism allowed users to detach and reattach parts in under 10 seconds, a major improvement over traditional fasteners which often required several minutes of careful disassembly. This quick-release functionality significantly reduced downtime during nutrient refeeding and helped maintain sterility by minimizing exposure time. In addition, their stainless steel construction ensured that they were compatible with frequent alcohol-based sterilization and resistant to corrosion from prolonged exposure to humidity.
 
