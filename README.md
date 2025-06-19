@@ -153,7 +153,7 @@ This reduced downtime during refeeding and minimized contamination risk. Their s
   Here is a brief guide on operating the LabView program- 
   > It is imperative that the system is connected to a host PC/laptop using a RS232 connector. In order to run the system, one should download the LabVIEW interface and perform the following tasks 
 
-    * Download and open the custom VI LabVIEW code (found in the code section of the [website](https://sites.google.com/eng.ucsd.edu/mae156b-2025spring-team02))
+   * Download and open the custom VI LabVIEW code (found in the code section of the [website](https://sites.google.com/eng.ucsd.edu/mae156b-2025spring-team02))
     * Write the number of samples to be tested, 
     * Setting the “zero”
     * Programming a desired strain, frequency, and number of cycles
