@@ -58,8 +58,6 @@
   Specimens are held in place using modular clamps—interchangeable between compression and tension modes—mounted onto a removable lift plate that enables easy extraction of the culture system for media replacement. The quick-release fasteners ensure minimal disruption during removal. A 5kg ATO load cell provides real-time feedback, ensuring applied forces stay within the desired range. The final design prioritizes modularity, sterilization compatibility (via aluminum and stainless steel components), and scalability for future automation.
 
 ### Key Components 
-### Key Components
-
 ---
 
 #### 1. SMAC Actuator
