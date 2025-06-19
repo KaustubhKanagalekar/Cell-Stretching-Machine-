@@ -63,7 +63,7 @@
 ![SMAC Acutator](assets/Misc/SMACpic.png)
 
    > ### Overview
-    > The purpose of the actuator is to provide a mechanism to deliver tensile and compressive forces to the specimen samples. Some choices that were considered include piezoelectric motors, stepper motors, and linear actuators, however the SMAC actuator was chosen because of the ease of procurement and performance specifications.
+    >> The purpose of the actuator is to provide a mechanism to deliver tensile and compressive forces to the specimen samples. Some choices that were considered include piezoelectric motors, stepper motors, and linear actuators, however the SMAC actuator was chosen because of the ease of procurement and performance specifications.
    
    > ### Functional Requirements
    >> * The actuator shall provide up to 20 N of force. 
@@ -83,7 +83,7 @@
 ![Tension Clamps](assets/Misc/Clamps.jpg)
 
    > ### Overview
-    > The clamps used in this design serve as a holder for the specimen during experiments. The clamps enable the specimen to stretch and compress, allowing them to grow during the course of the experiment. There are two types of clamp design: one for tension, the other for compression. This presents information for tension clamps. The specimen size used for tensile experiments is roughly 20 mm by 5 mm. 
+    >> The clamps used in this design serve as a holder for the specimen during experiments. The clamps enable the specimen to stretch and compress, allowing them to grow during the course of the experiment. There are two types of clamp design: one for tension, the other for compression. This presents information for tension clamps. The specimen size used for tensile experiments is roughly 20 mm by 5 mm. 
    
    > ### Functional Requirements
    >> * The clamps shall be easily sterilizable (thus made out of metal). 
@@ -100,18 +100,18 @@
   ![Rails and Carriages](assets/Misc/Rails.png)
 
    > ### Overview
-     > The design utilizes a gantry to translate the linear motion of the SMAC actuator to the array of clamps holding the specimens. This enables the specimen to receive tensile and compressive forces that aid in their growth and development  
+     >> The design utilizes a gantry to translate the linear motion of the SMAC actuator to the array of clamps holding the specimens. This enables the specimen to receive tensile and compressive forces that aid in their growth and development  
    > ### Functional Requirements
    >> * The rails shall exhibit minimal friction and wobble when in operation.
    > ### Justification
      The rail and carriage system from McMaster-Carr was chosen because it exhibited extremely low friction during inspection and seemed extremely durable. 
 
-3. **Quick Release Fasteners**
+4. **Quick Release Fasteners**
 
 ![Quick Release Fasteners](assets/Misc/QuickRelease.png)
 
    > ### Overview
-     > The user needs to be able to quickly separate key parts of the assembly in order to perform manual refeeding of the nutrient medium. Parts to be quickly released include the plates holding the slots for clamps as well as load cell and linear actuator from the gantry. The quick release fasteners are an alternative to using traditional fasteners such as bolts and nuts which may create a large delay in nutrient refeeding  and provide extra parts that may be easily misplaced.
+     >> The user needs to be able to quickly separate key parts of the assembly in order to perform manual refeeding of the nutrient medium. Parts to be quickly released include the plates holding the slots for clamps as well as load cell and linear actuator from the gantry. The quick release fasteners are an alternative to using traditional fasteners such as bolts and nuts which may create a large delay in nutrient refeeding  and provide extra parts that may be easily misplaced.
    > ### Functional Requirements
    >> * Secure Connection: Must firmly fasten aluminum plates and stainless steel blocks without unintended detachment during operation.
    >> * Tool-Free Operation: Should allow engagement and release by hand (e.g., quarter-turn or button press), without requiring screwdrivers, wrenches, or Allen keys.
