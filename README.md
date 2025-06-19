@@ -1,10 +1,10 @@
 
 # Cell-Stretching-Machine-
 
-{add final prototype here} 
+![Final Prototype](assets/Misc/FinalAssembly.jpg)
 
 ## Part of Senior Capstone Project for the Mechanical and Aerospace Department at University of California, San Diego 
-## Contributors: Kaustubh Kanagalekar, Alexander Haken, Sheen Shaji, Justin Dang, Jason Liu 
+### Contributors: Kaustubh Kanagalekar, Alexander Haken, Sheen Shaji, Justin Dang, Jason Liu 
 
 ---
 
@@ -29,7 +29,7 @@
 ## Motivation
   The motivation behind developing a biomechanical culture reactor lies in addressing the clinical need for effective regeneration of musculoskeletal tissues, particularly tendon and meniscus tissues. These tissues are commonly damaged in sports-related injuries or age-related conditions such as knee osteoarthritis, often requiring surgical interventions like tendon repair or knee replacement. The culture reactor aids in tissue regeneration by applying controlled mechanical stimulation—stretching or compressing the tissues—in a laboratory setting, replicating natural conditions to promote healthy tissue growth.
 
-{insert picture of knee tissues} 
+![Image of Tendons](assets/Misc/knee.png)
 
   This project is sponsored by Dr. Peter Chen and Erik Dorthe from the Shiley Center for Orthopedic Research and Education, who are seeking a system capable of applying tensile loading (stretching) to tendon tissues and compressive loading (squeezing) to meniscus tissues. These mechanical forces are critical in promoting proper growth by mimicking the natural physiological conditions tissues experience in the human body. Specifically, these forces help cells create a proper extracellular matrix, a foundational structure necessary for healthy and functional tissue growth. Tissue samples will be immersed in a nutrient-rich solution for approximately two weeks to sustain cell activity during mechanical stimulation.
 
@@ -50,7 +50,8 @@
 ---
 
 ## System Overview / Methodology
-{add picture of final CAD design} 
+
+![Final CAD Prototype](assets/Misc/CADOverview.png)
 
   The final design of the Biomechanical Culture Reactor, as seen in the figure above, integrates six main subsystems: the SMAC actuator, custom lift plate, linear rail carriage, modular clamp interface, load cell assembly, and the petri-dish nutrient tray. All components are mounted on a precision-machined aluminum baseplate designed for high stiffness and compatibility with incubator environments. The SMAC actuator provides programmable tension and compression to the mounted tissue specimens, with cyclic strain control up to 10% at 1 Hz. This motion is transferred through a linear rail carriage system for smooth and low-friction actuation.
 
@@ -58,7 +59,9 @@
 
 ### Key Components 
 1. **SMAC Actuator**  
-   {add image of SMAC Actuator} 
+
+![SMAC Acutator](assets/Misc/SMACpic.png)
+
    > ### Overview
     > The purpose of the actuator is to provide a mechanism to deliver tensile and compressive forces to the specimen samples. Some choices that were considered include piezoelectric motors, stepper motors, and linear actuators, however the SMAC actuator was chosen because of the ease of procurement and performance specifications.
    
@@ -76,7 +79,9 @@
    > Furthermore, the actuator effectively operated at the required cyclic frequency of 1 Hz without loss of accuracy or mechanical instability. The robustness of SMAC actuator's design offered reliable cyclic operation, crucial for mimicking the physiological conditions necessary for tissue growth and maturation.
 
 2. **Tension Clamps**
-   {add image of tension clamps}
+
+![Tension Clamps](assets/Misc/Clamps.jpg)
+
    > ### Overview
     > The clamps used in this design serve as a holder for the specimen during experiments. The clamps enable the specimen to stretch and compress, allowing them to grow during the course of the experiment. There are two types of clamp design: one for tension, the other for compression. This presents information for tension clamps. The specimen size used for tensile experiments is roughly 20 mm by 5 mm. 
    
@@ -91,7 +96,9 @@
      > In terms of mechanical performance, this iteration also maintained a strong and secure grip on the specimen throughout the loading cycles. This was crucial, as slippage during stretching or compression could compromise experimental data and hinder proper tissue development. The design’s ability to maintain a consistent clamping force under cyclic mechanical loading improved the reliability of results and ensured that strain measurements remained accurate throughout the testing period.
 
 3. **Linear Rail Design**
-   {add image of linear rails}
+
+  ![Rails and Carriages](assets/Misc/Rails.png)
+
    > ### Overview
      > The design utilizes a gantry to translate the linear motion of the SMAC actuator to the array of clamps holding the specimens. This enables the specimen to receive tensile and compressive forces that aid in their growth and development  
    > ### Functional Requirements
@@ -99,8 +106,10 @@
    > ### Justification
      The rail and carriage system from McMaster-Carr was chosen because it exhibited extremely low friction during inspection and seemed extremely durable. 
 
-4. **Quick Release Fasteners**
-   {add image for quick release} 
+3. **Quick Release Fasteners**
+
+![Quick Release Fasteners](assets/Misc/QuickRelease.png)
+
    > ### Overview
      > The user needs to be able to quickly separate key parts of the assembly in order to perform manual refeeding of the nutrient medium. Parts to be quickly released include the plates holding the slots for clamps as well as load cell and linear actuator from the gantry. The quick release fasteners are an alternative to using traditional fasteners such as bolts and nuts which may create a large delay in nutrient refeeding  and provide extra parts that may be easily misplaced.
    > ### Functional Requirements
@@ -147,12 +156,12 @@ A csv file with the load data and timestamps is saved after each run which can b
 ### Data
 For the final design iteration, the following tests were conducted: two initial validation tests were conducted under different operating conditions. These tests were designed to verify the functionality of the SMAC actuator under load and to assess the level of internal system friction in the absence of a specimen. The first test consisted of dynamic loading of a 20 mm sample at 0.2 Hz cycles.  The load cell output during this test is shown in the figure below- 
 
-{add picture of test here}
+![Data 1](assets/Misc/Data2.png)
   As seen in the above figure, the maximum force obtained was 18 N, thus closely matching the required force output of 20 N from the actuator. 
 
 For the second test, inertial system friction was measured. The result of this test can be seen in Figure 4.2.4. 
 
- {add picture of test here} 
+![Data 2](assets/Misc/Data1.png)
     As seen in the above figure, the maximum friction measured was roughly 0.65 N. 
  
 ### Evaluation
@@ -163,6 +172,8 @@ For the second test, inertial system friction was measured. The result of this t
   The performance difference between the two tests can be interpreted in terms of system efficiency. Under load, most of the actuator’s output was effectively transferred to the specimen, whereas under no-load conditions, internal mechanical friction became the dominant force captured by the load cell. This difference validates the team’s approach to minimizing friction through component selection and alignment strategies.
 
   Furthermore, the results imply that any small load measurements recorded in actual tissue tests—especially in the sub-2 N range—must be interpreted carefully, as they may include minor contributions from system friction. However, given the low friction baseline, the load cell readings for most biological samples (which are expected to fall in the 5–15 N range) will remain reliable.
+
+  ![Operational Movie](assets/Misc/Operation.MOV)
 
 # Challenges Faced
   Over the course of this project, the team developed not only a functional prototype but also a deeper understanding of the interdisciplinary challenges involved in biomedical device development. One of the most important lessons was the necessity of iterative prototyping. Initial clamp designs, although theoretically sound, failed under real-world incubator conditions due to inadequate material selection. This prompted a redesign using stainless steel and anodized aluminum to ensure durability, chemical resistance, and sterilizability.
@@ -189,18 +200,29 @@ Beyond the technical accomplishments, the project highlighted the importance of 
 
 Continued development, including expanded testing with living cells and integration of closed-loop control systems, will be necessary to transition the reactor from a proof-of-concept to a research-grade or clinical tool. Nonetheless, the current results provide a strong foundation for both academic exploration and potential translational application.
 
+![Final Assembly ](assets/Misc/FinalAssembly2.jpg)
+
  #### Acknowledgements
  SCORE Lab – Shiley Center for Orthopedic Research and Education
+ 
   Dr. Peter Chen
-  Erik Dorthe
+  
+  Erik Dorthé
 
   
 Department of Mechanical and Aerospace Engineering, University of California San Diego
+
 Professor Nathan Delson
+
 Jackie Chen
+
 Thomas Chalfant
+
 Stephen Mercsak
 
+
 UCSD Makerspace
+
 David Lesser
+
 Mark Liu
