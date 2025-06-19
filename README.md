@@ -59,7 +59,7 @@
 1. **SMAC Actuator**  
    {add image of SMAC Actuator} 
    > ### Overview
-    The purpose of the actuator is to provide a mechanism to deliver tensile and compressive forces to the specimen samples. Some choices that were considered include piezoelectric motors, stepper motors, and linear actuators, however the SMAC actuator was chosen because of the ease of procurement and performance specifications.
+    > The purpose of the actuator is to provide a mechanism to deliver tensile and compressive forces to the specimen samples. Some choices that were considered include piezoelectric motors, stepper motors, and linear actuators, however the SMAC actuator was chosen because of the ease of procurement and performance specifications.
    
    > ### Functional Requirements
    >> * The actuator shall provide up to 20 N of force. 
@@ -67,7 +67,7 @@
    >> * The actuator shall contain a resolution of 1µm.
 
    > ### Justification
-   The actuator provided an exceptional positional resolution of 10 µm, exceeding the precision required for reliably achieving the necessary strain increments in the biological samples. Its high-accuracy linear positioning ensured repeatability, crucial for maintaining consistent mechanical stimuli during extended experimental periods.
+     > The actuator provided an exceptional positional resolution of 10 µm, exceeding the precision required for reliably achieving the necessary strain increments in the biological samples. Its high-accuracy linear positioning ensured repeatability, crucial for maintaining consistent mechanical stimuli during extended experimental periods.
 
    > Secondly, the SMAC actuator delivered consistent, backlash-free performance due to its unique moving-coil design. The absence of backlash in the actuator eliminated concerns about drift and unintended motion, which are critical for maintaining the integrity and 
    repeatability of tests that last over multiple weeks.
@@ -77,7 +77,7 @@
 2. **Tension Clamps**
    {add image of tension clamps}
    > ### Overview
-   The clamps used in this design serve as a holder for the specimen during experiments. The clamps enable the specimen to stretch and compress, allowing them to grow during the course of the experiment. There are two types of clamp design: one for tension, the other for compression. This presents information for tension clamps. The specimen size used for tensile experiments is roughly 20 mm by 5 mm. 
+    > The clamps used in this design serve as a holder for the specimen during experiments. The clamps enable the specimen to stretch and compress, allowing them to grow during the course of the experiment. There are two types of clamp design: one for tension, the other for compression. This presents information for tension clamps. The specimen size used for tensile experiments is roughly 20 mm by 5 mm. 
    
    > ### Functional Requirements
    >> * The clamps shall be easily sterilizable (thus made out of metal). 
@@ -92,7 +92,7 @@
 3. **Linear Rail Design**
    {add image of linear rails}
    > ### Overview
-   The design utilizes a gantry to translate the linear motion of the SMAC actuator to the array of clamps holding the specimens. This enables the specimen to receive tensile and compressive forces that aid in their growth and development  
+     > The design utilizes a gantry to translate the linear motion of the SMAC actuator to the array of clamps holding the specimens. This enables the specimen to receive tensile and compressive forces that aid in their growth and development  
    > ### Functional Requirements
    >> * The rails shall exhibit minimal friction and wobble when in operation.
    > ### Justification
@@ -101,7 +101,7 @@
 4. **Quick Release Fasteners**
    {add image for quick release} 
    > ### Overview
-   The user needs to be able to quickly separate key parts of the assembly in order to perform manual refeeding of the nutrient medium. Parts to be quickly released include the plates holding the slots for clamps as well as load cell and linear actuator from the gantry. The quick release fasteners are an alternative to using traditional fasteners such as bolts and nuts which may create a large delay in nutrient refeeding  and provide extra parts that may be easily misplaced.
+     > The user needs to be able to quickly separate key parts of the assembly in order to perform manual refeeding of the nutrient medium. Parts to be quickly released include the plates holding the slots for clamps as well as load cell and linear actuator from the gantry. The quick release fasteners are an alternative to using traditional fasteners such as bolts and nuts which may create a large delay in nutrient refeeding  and provide extra parts that may be easily misplaced.
    > ### Functional Requirements
    >> * Secure Connection: Must firmly fasten aluminum plates and stainless steel blocks without unintended detachment during operation.
    >> * Tool-Free Operation: Should allow engagement and release by hand (e.g., quarter-turn or button press), without requiring screwdrivers, wrenches, or Allen keys.
@@ -110,7 +110,7 @@
    >> * Repeatable Reliability: Should be durable for repeated fastening cycles (20+ uses) without significant wear or degradation of locking performance.
 
    > ### Justification
-     After comparing multiple fastening mechanisms, fixtures from the IMAO company were selected. More specifically, the IMAO Quarter Turn Fasteners were chosen as the final solution due to their optimal balance of performance, reliability, and integration ease. These fasteners provided a secure mechanical connection between key components—specifically, the lift plate, clamp carriage, actuator mount, and load cell interface—while maintaining a compact profile suitable for the limited space within the incubator-compatible reactor base.
+     > After comparing multiple fastening mechanisms, fixtures from the IMAO company were selected. More specifically, the IMAO Quarter Turn Fasteners were chosen as the final solution due to their optimal balance of performance, reliability, and integration ease. These fasteners provided a secure mechanical connection between key components—specifically, the lift plate, clamp carriage, actuator mount, and load cell interface—while maintaining a compact profile suitable for the limited space within the incubator-compatible reactor base.
 
    > The tool-free quarter-turn locking mechanism allowed users to detach and reattach parts in under 10 seconds, a major improvement over traditional fasteners which often required several minutes of careful disassembly. This quick-release functionality significantly reduced downtime during nutrient refeeding and helped maintain sterility by minimizing exposure time. In addition, their stainless steel construction ensured that they were compatible with frequent alcohol-based sterilization and resistant to corrosion from prolonged exposure to humidity.
 
