@@ -58,72 +58,83 @@
   Specimens are held in place using modular clamps—interchangeable between compression and tension modes—mounted onto a removable lift plate that enables easy extraction of the culture system for media replacement. The quick-release fasteners ensure minimal disruption during removal. A 5kg ATO load cell provides real-time feedback, ensuring applied forces stay within the desired range. The final design prioritizes modularity, sterilization compatibility (via aluminum and stainless steel components), and scalability for future automation.
 
 ### Key Components 
-1. **SMAC Actuator**  
+### Key Components
 
-![SMAC Acutator](assets/Misc/SMACpic.png)
+---
 
-   > ### Overview
-    >> The purpose of the actuator is to provide a mechanism to deliver tensile and compressive forces to the specimen samples. Some choices that were considered include piezoelectric motors, stepper motors, and linear actuators, however the SMAC actuator was chosen because of the ease of procurement and performance specifications.
-   
-   > ### Functional Requirements
-   >> * The actuator shall provide up to 20 N of force. 
-   >> * The actuator shall run in 1 Hz cycles. 
-   >> * The actuator shall contain a resolution of 1µm.
+#### 1. SMAC Actuator
 
-   > ### Justification
-     > The actuator provided an exceptional positional resolution of 10 µm, exceeding the precision required for reliably achieving the necessary strain increments in the biological samples. Its high-accuracy linear positioning ensured repeatability, crucial for maintaining consistent mechanical stimuli during extended experimental periods.
+![SMAC Actuator](assets/Misc/SMACpic.png)
 
-   > Secondly, the SMAC actuator delivered consistent, backlash-free performance due to its unique moving-coil design. The absence of backlash in the actuator eliminated concerns about drift and unintended motion, which are critical for maintaining the integrity and 
-   repeatability of tests that last over multiple weeks.
-   
-   > Furthermore, the actuator effectively operated at the required cyclic frequency of 1 Hz without loss of accuracy or mechanical instability. The robustness of SMAC actuator's design offered reliable cyclic operation, crucial for mimicking the physiological conditions necessary for tissue growth and maturation.
+#### Overview  
+The purpose of the actuator is to provide a mechanism to deliver tensile and compressive forces to the specimen samples. Some choices that were considered include piezoelectric motors, stepper motors, and linear actuators; however, the SMAC actuator was chosen due to ease of procurement and performance specifications.
 
-2. **Tension Clamps**
+#### Functional Requirements  
+- The actuator shall provide up to 20 N of force.  
+- The actuator shall run in 1 Hz cycles.  
+- The actuator shall contain a resolution of 1 µm.
+
+#### Justification  
+The actuator provided an exceptional positional resolution of 10 µm, exceeding the precision required for reliably achieving the necessary strain increments in the biological samples. Its high-accuracy linear positioning ensured repeatability, crucial for maintaining consistent mechanical stimuli during extended experimental periods.
+
+Secondly, the SMAC actuator delivered consistent, backlash-free performance due to its unique moving-coil design. The absence of backlash eliminated concerns about drift and unintended motion, which are critical for maintaining the integrity and repeatability of tests over multiple weeks.
+
+Furthermore, the actuator operated at the required cyclic frequency of 1 Hz without loss of accuracy or mechanical instability. Its robust design offered reliable cyclic operation, crucial for mimicking the physiological conditions necessary for tissue growth and maturation.
+
+---
+
+#### 2. Tension Clamps
 
 ![Tension Clamps](assets/Misc/Clamps.jpg)
 
-   > ### Overview
-    >> The clamps used in this design serve as a holder for the specimen during experiments. The clamps enable the specimen to stretch and compress, allowing them to grow during the course of the experiment. There are two types of clamp design: one for tension, the other for compression. This presents information for tension clamps. The specimen size used for tensile experiments is roughly 20 mm by 5 mm. 
-   
-   > ### Functional Requirements
-   >> * The clamps shall be easily sterilizable (thus made out of metal). 
-   >> * The clamps shall be modular (can be replaced with other types of clamps easily).
-   >> * The clamps shall be able to hold the samples throughout the experiment without causing them to slip. 
+#### Overview  
+The clamps used in this design serve as holders for the specimen during experiments. They enable the specimen to stretch and compress, facilitating growth during the experiment. Two clamp designs exist: one for tension and another for compression. This section describes the tension clamps, used for specimens roughly 20 mm by 5 mm.
 
-   > ### Justification
-     > This clamp version incorporated modularity through the use of T-slots and T-nuts, enabling quick interchangeability between different clamp types. This feature was especially beneficial for the project since the system needed to accommodate both tensile and compressive samples with differing geometries and dimensions. The modular interface allowed for faster setup and teardown between experiments, reduced the risk of sample mishandling, and provided long-term flexibility for future experimental configurations.
+#### Functional Requirements  
+- The clamps shall be easily sterilizable (thus made out of metal).  
+- The clamps shall be modular (interchangeable with other types).  
+- The clamps shall securely hold samples without slippage.
 
-     > In terms of mechanical performance, this iteration also maintained a strong and secure grip on the specimen throughout the loading cycles. This was crucial, as slippage during stretching or compression could compromise experimental data and hinder proper tissue development. The design’s ability to maintain a consistent clamping force under cyclic mechanical loading improved the reliability of results and ensured that strain measurements remained accurate throughout the testing period.
+#### Justification  
+This clamp version incorporated modularity through T-slots and T-nuts, enabling quick interchangeability between different clamp types. This feature was beneficial for accommodating both tensile and compressive samples of varying geometries.
 
-3. **Linear Rail Design**
+Mechanically, this iteration maintained a strong grip on the specimen throughout loading cycles. Slippage during stretching or compression could compromise data, so consistent clamping improved experimental reliability and ensured accurate strain measurements.
 
-  ![Rails and Carriages](assets/Misc/Rails.png)
+---
 
-   > ### Overview
-     >> The design utilizes a gantry to translate the linear motion of the SMAC actuator to the array of clamps holding the specimens. This enables the specimen to receive tensile and compressive forces that aid in their growth and development  
-   > ### Functional Requirements
-   >> * The rails shall exhibit minimal friction and wobble when in operation.
-   > ### Justification
-     The rail and carriage system from McMaster-Carr was chosen because it exhibited extremely low friction during inspection and seemed extremely durable. 
+#### 3. Linear Rail Design
 
-4. **Quick Release Fasteners**
+![Rails and Carriages](assets/Misc/Rails.png)
+
+#### Overview  
+The design utilizes a gantry to translate the linear motion of the SMAC actuator to the array of clamps holding the specimens. This enables the specimen to receive tensile and compressive forces to aid growth and development.
+
+#### Functional Requirements  
+- The rails shall exhibit minimal friction and wobble during operation.
+
+#### Justification  
+The rail and carriage system from McMaster-Carr was chosen for its extremely low friction and robust construction. This ensured reliable motion transmission, improving the accuracy and consistency of force application during testing.
+
+---
+
+#### 4. Quick Release Fasteners
 
 ![Quick Release Fasteners](assets/Misc/QuickRelease.png)
 
-   > ### Overview
-     >> The user needs to be able to quickly separate key parts of the assembly in order to perform manual refeeding of the nutrient medium. Parts to be quickly released include the plates holding the slots for clamps as well as load cell and linear actuator from the gantry. The quick release fasteners are an alternative to using traditional fasteners such as bolts and nuts which may create a large delay in nutrient refeeding  and provide extra parts that may be easily misplaced.
-   > ### Functional Requirements
-   >> * Secure Connection: Must firmly fasten aluminum plates and stainless steel blocks without unintended detachment during operation.
-   >> * Tool-Free Operation: Should allow engagement and release by hand (e.g., quarter-turn or button press), without requiring screwdrivers, wrenches, or Allen keys.
-   >> * Sterilization Compatibility: Must be constructed entirely from corrosion-resistant metals (stainless steel or anodized aluminum) to withstand alcohol wiping and incubator conditions (37°C, 90% humidity).
-   >> * Compact Form Factor: Must have a low-profile design to fit within spatial constraints inside the reactor’s petri dish platform and avoid interfering with adjacent components.
-   >> * Repeatable Reliability: Should be durable for repeated fastening cycles (20+ uses) without significant wear or degradation of locking performance.
+#### Overview  
+The user must quickly separate parts of the assembly to manually refeed nutrient medium. Detachable parts include the clamp plate, load cell, and actuator mount. Quick-release fasteners offer an efficient alternative to bolts and nuts, which slow down access and pose a risk of losing small parts.
 
-   > ### Justification
-     > After comparing multiple fastening mechanisms, fixtures from the IMAO company were selected. More specifically, the IMAO Quarter Turn Fasteners were chosen as the final solution due to their optimal balance of performance, reliability, and integration ease. These fasteners provided a secure mechanical connection between key components—specifically, the lift plate, clamp carriage, actuator mount, and load cell interface—while maintaining a compact profile suitable for the limited space within the incubator-compatible reactor base.
+#### Functional Requirements  
+- **Secure Connection**: Must fasten plates and blocks without detachment.  
+- **Tool-Free Operation**: Must engage and release by hand.  
+- **Sterilization Compatibility**: Must be corrosion-resistant and sterilizable.  
+- **Compact Form Factor**: Must fit within spatial constraints.  
+- **Repeatable Reliability**: Must withstand 20+ cycles of fastening/unfastening.
 
-   > The tool-free quarter-turn locking mechanism allowed users to detach and reattach parts in under 10 seconds, a major improvement over traditional fasteners which often required several minutes of careful disassembly. This quick-release functionality significantly reduced downtime during nutrient refeeding and helped maintain sterility by minimizing exposure time. In addition, their stainless steel construction ensured that they were compatible with frequent alcohol-based sterilization and resistant to corrosion from prolonged exposure to humidity.
+#### Justification  
+Fixtures from IMAO, specifically the Quarter Turn Fasteners, were selected for their optimal balance of performance, reliability, and compact design. They enabled fast, tool-free removal and reattachment of key parts in under 10 seconds.
 
+This reduced downtime during refeeding and minimized contamination risk. Their stainless-steel construction supported repeated alcohol sterilization and durability under humid incubator conditions.
 
 ---
 
